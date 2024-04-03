@@ -14,7 +14,7 @@ public class AnimalController {
     private final AnimalList<Object> animalList = new AnimalList<>();
     private final UI ui = new UI();
 
-
+    // главное меню
     private final Map<String, String> menuMain = new HashMap<String, String>() {{
         put("1", "Добавить животное");
         put("2", "Добавить команду");
